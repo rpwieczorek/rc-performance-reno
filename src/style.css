@@ -1,0 +1,1062 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-loreal.es-loreal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 998px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  background: #000;
+}
+
+#es-loreal.es-loreal * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#es-loreal.es-loreal h2,
+#es-loreal.es-loreal h3,
+#es-loreal.es-loreal h4,
+#es-loreal.es-loreal h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+#es-loreal.es-loreal .es-kv {
+  margin-bottom: 32px;
+}
+
+#es-loreal.es-loreal .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-kv__img--badge {
+  max-width: 80px;
+}
+
+#es-loreal.es-loreal .es-kv__img--packshot {
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#es-loreal.es-loreal .es-kv__img--packshot:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#es-loreal.es-loreal .es-kv__img--packshot-bg {
+  position: absolute;
+  z-index: 1;
+  top: 32px;
+  right: 108px;
+}
+
+#es-loreal.es-loreal .es-kv__logo {
+  margin: 32px 0;
+  margin-bottom: 56px;
+  padding: 0 16px;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s forwards;
+          animation: slidedown 0.6s forwards;
+}
+
+#es-loreal.es-loreal .es-kv__name {
+  margin-bottom: 40px;
+  padding: 0 16px;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s 0.3s forwards;
+          animation: slidedown 0.6s 0.3s forwards;
+}
+
+#es-loreal.es-loreal .es-kv__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 16px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s 0.6s forwards;
+          animation: slidedown 0.6s 0.6s forwards;
+}
+
+#es-loreal.es-loreal .es-kv__image {
+  position: relative;
+  max-width: 675px;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-kv__badge {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#es-loreal.es-loreal .es-kv__texts {
+  position: absolute;
+  z-index: 3;
+  bottom: 16px;
+  left: 16px;
+  opacity: 0;
+  -webkit-animation: slideright 0.6s 0.6s forwards;
+          animation: slideright 0.6s 0.6s forwards;
+}
+
+#es-loreal.es-loreal .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+#es-loreal.es-loreal .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+#es-loreal.es-loreal .es-kv__disc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 8px;
+}
+
+#es-loreal.es-loreal .es-kv__packshot {
+  width: 334px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s 0.6s forwards;
+          animation: slidedown 0.6s 0.6s forwards;
+}
+
+#es-loreal.es-loreal .es-video {
+  margin-bottom: 64px;
+  position: relative;
+}
+
+#es-loreal.es-loreal .es-video__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+#es-loreal.es-loreal .es-video__container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#es-loreal.es-loreal .es-video__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#es-loreal.es-loreal .es-pack {
+  padding: 0 16px;
+  margin-bottom: 64px;
+}
+
+#es-loreal.es-loreal .es-pack__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+#es-loreal.es-loreal .es-pack__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-pack__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#es-loreal.es-loreal .es-pack__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+#es-loreal.es-loreal .es-pack__item:hover .es-pack__icon {
+  -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+}
+
+#es-loreal.es-loreal .es-pack__icon {
+  min-width: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#es-loreal.es-loreal .es-pack__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 4px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+#es-loreal.es-loreal .es-pack__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+#es-loreal.es-loreal .es-benefits {
+  margin-bottom: 64px;
+  padding: 64px 16px 64px 16px;
+  background: url("images/bg-gold.png") no-repeat top center;
+  background-size: cover;
+}
+
+#es-loreal.es-loreal .es-benefits__wrapper {
+  max-width: 896px;
+  margin: 0 auto;
+  background: #000;
+  padding: 64px 32px;
+}
+
+#es-loreal.es-loreal .es-benefits__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 64px;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-benefits__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  position: relative;
+  padding: 8px 0;
+}
+
+#es-loreal.es-loreal .es-benefits__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+#es-loreal.es-loreal .es-benefits__item::before {
+  content: url("images/dot.png");
+  position: absolute;
+  top: 50%;
+  left: -64px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#es-loreal.es-loreal .es-benefits__item:hover::before {
+  content: url("images/dot.png");
+  position: absolute;
+  top: 50%;
+  left: -72px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#es-loreal.es-loreal .es-slider {
+  margin-bottom: 56px;
+}
+
+#es-loreal.es-loreal .es-slider__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 32px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+}
+
+#es-loreal.es-loreal .es-slider__wrapper {
+  background: url("images/slider.png") no-repeat top left;
+  padding: 56px 16px 0 16px;
+}
+
+#es-loreal.es-loreal .es-slider__content {
+  max-width: 886px;
+  padding: 16px 24px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 16px;
+}
+
+#es-loreal.es-loreal .es-slider__persona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#es-loreal.es-loreal .es-slider__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-slider__photo {
+  margin-bottom: 16px;
+}
+
+#es-loreal.es-loreal .es-slider__name {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#es-loreal.es-loreal .es-slider__job {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#es-loreal.es-loreal .es-slider__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#es-loreal.es-loreal .es-slider__content {
+  position: relative;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-button-prev:after,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next:after {
+  display: none;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-button-next:after,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev:after {
+  display: none;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-button-next,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+  right: -12px;
+  left: auto;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-button-prev,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+  left: -12px;
+  right: auto;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-container-horizontal > .swiper-pagination-bullets,
+#es-loreal.es-loreal .es-slider .swiper-pagination-custom,
+#es-loreal.es-loreal .es-slider .swiper-pagination-fraction {
+  bottom: 0px;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-pagination {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #292929;
+  border: 1px solid #1d1d1b;
+  opacity: 1;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 6px;
+}
+
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #b38f4b;
+}
+
+#es-loreal.es-loreal .es-virtual {
+  padding: 0 16px;
+  margin-bottom: 64px;
+}
+
+#es-loreal.es-loreal .es-virtual__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-virtual__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+#es-loreal.es-loreal .es-virtual__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.5;
+}
+
+#es-loreal.es-loreal .es-virtual__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 48px;
+  line-height: 1.5;
+}
+
+#es-loreal.es-loreal .es-virtual__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 16px 32px;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#dac278), to(#885518));
+  background: linear-gradient(to right, #dac278, #885518);
+}
+
+#es-loreal.es-loreal .es-virtual__image {
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 2;
+  width: 290px;
+  margin: 0 auto;
+}
+
+#es-loreal.es-loreal .es-virtual__phone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#es-loreal.es-loreal .es-virtual__packshot {
+  position: absolute;
+  bottom: -40px;
+  right: -150px;
+  z-index: 1;
+}
+
+#es-loreal.es-loreal .es-cross {
+  padding-bottom: 64px;
+}
+
+#es-loreal.es-loreal .es-cross__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+}
+
+#es-loreal.es-loreal .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#es-loreal.es-loreal .es-cross__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+#es-loreal.es-loreal .es-cross__single {
+  width: 212px;
+}
+
+#es-loreal.es-loreal .es-cross__single:hover .es-cross__img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#es-loreal.es-loreal .es-cross__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#es-loreal.es-loreal .es-cross__more {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 16px 32px;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#dac278), to(#885518));
+  background: linear-gradient(to right, #dac278, #885518);
+}
+
+@media screen and (min-width: 768px) {
+  #es-loreal.es-loreal .es-kv {
+    margin-bottom: 64px;
+  }
+  #es-loreal.es-loreal .es-kv__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #es-loreal.es-loreal .es-kv__title {
+    font-size: 32px;
+    padding-right: 64px;
+  }
+  #es-loreal.es-loreal .es-kv__img--kv {
+    min-height: 774px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #es-loreal.es-loreal .es-kv__subtitle, #es-loreal.es-loreal .es-kv__disc {
+    padding-right: 64px;
+  }
+  #es-loreal.es-loreal .es-kv__branding {
+    padding: 0 32px;
+  }
+  #es-loreal.es-loreal .es-pack {
+    max-width: 896px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+  #es-loreal.es-loreal .es-pack__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+  }
+  #es-loreal.es-loreal .es-pack__image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #es-loreal.es-loreal .es-pack__content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #es-loreal.es-loreal .es-slider {
+    margin-bottom: 156px;
+  }
+  #es-loreal.es-loreal .es-slider__title {
+    font-size: 40px;
+  }
+  #es-loreal.es-loreal .es-slider__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__persona {
+    min-width: 136px;
+    margin-right: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__job {
+    margin-bottom: 0;
+  }
+  #es-loreal.es-loreal .es-virtual {
+    max-width: 896px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+  #es-loreal.es-loreal .es-virtual__title {
+    font-size: 48px;
+  }
+  #es-loreal.es-loreal .es-virtual__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+  }
+  #es-loreal.es-loreal .es-virtual__content {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    font-size: 18px;
+  }
+  #es-loreal.es-loreal .es-virtual__list {
+    margin-bottom: 64px;
+  }
+  #es-loreal.es-loreal .es-virtual__image {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  #es-loreal.es-loreal .es-kv__title {
+    font-size: 49px;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-next,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+    right: -48px;
+    left: auto;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-prev,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+    left: -48px;
+    right: auto;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-next,
+  #es-loreal.es-loreal .es-slider .swiper-button-prev {
+    width: 40px;
+  }
+}
+
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideright {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.beer-slider {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.beer-slider *,
+.beer-slider:after,
+.beer-slider :after,
+.beer-slider:before,
+.beer-slider :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.beer-slider img,
+.beer-slider svg {
+  vertical-align: bottom;
+}
+
+.beer-slider > * {
+  height: 100%;
+}
+
+.beer-slider > img {
+  height: auto;
+  max-width: 100%;
+}
+
+.beer-reveal {
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  z-index: 1;
+  border-right: 3px solid #050921;
+}
+
+.beer-reveal > :first-child {
+  height: 100%;
+  max-width: none;
+  width: 200%;
+}
+
+.beer-reveal > img:first-child {
+  height: auto;
+}
+
+.beer-range {
+  -moz-appearance: none;
+  -ms-touch-action: auto;
+  -webkit-appearance: slider-horizontal !important;
+  bottom: 0;
+  cursor: pointer;
+  height: 100%;
+  left: -1px;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  touch-action: auto;
+  width: calc(100% + 2px);
+  z-index: 2;
+}
+
+.beer-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 300vh;
+}
+
+.beer-range::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 300vh;
+}
+
+.beer-range::-ms-tooltip {
+  display: none;
+}
+
+.beer-handle {
+  background: rgba(179, 143, 75, 0.5);
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 6px transparent;
+  box-shadow: 0 0 6px transparent;
+  color: #000;
+  height: 48px;
+  left: 50%;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 75%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transition: background 0.3s, opacity 0.5s 0.25s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, opacity 0.5s 0.25s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, opacity 0.5s 0.25s;
+  transition: background 0.3s, box-shadow 0.3s, opacity 0.5s 0.25s, -webkit-box-shadow 0.3s;
+  width: 48px;
+  z-index: 2;
+}
+
+.beer-handle:after,
+.beer-handle:before {
+  border-left: 2px solid;
+  border-top: 2px solid;
+  content: '';
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 10px;
+}
+
+.beer-handle:before {
+  left: 10px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.beer-handle:after {
+  right: 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.beer-range:focus ~ .beer-handle {
+  background: rgba(179, 143, 75, 0.85);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.beer-reveal[data-beer-label]:after,
+.beer-slider[data-beer-label]:after {
+  background: rgba(179, 143, 75, 0.75);
+  border-radius: 0.125rem;
+  content: attr(data-beer-label);
+  line-height: 1;
+  padding: 0.5rem;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.beer-slider[data-beer-label]:after {
+  right: 1.5rem;
+}
+
+.beer-reveal[data-beer-label]:after {
+  left: 1.5rem;
+}
+
+.beer-reveal[data-beer-label='']:after,
+.beer-slider[data-beer-label='']:after {
+  content: none;
+}
+
+.beer-ready .beer-handle,
+.beer-ready .beer-reveal {
+  opacity: 1;
+}
+
+.beer-reveal[data-beer-label]:after {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  left: 0;
+  bottom: 0;
+  top: unset;
+  background: #fff;
+  color: #050921;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 4px 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  z-index: 1;
+}
+
+.beer-slider[data-beer-label]:after {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  right: 0;
+  bottom: 0;
+  top: unset;
+  background: #fff;
+  color: #050921;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 4px 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
