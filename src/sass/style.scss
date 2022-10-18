@@ -239,18 +239,18 @@ body {
       @include text;
     }
   }
-
   .es-benefits {
     margin-bottom: 64px;
     padding: 64px 16px 64px 16px;
     background: url('../images/bg-gold.png') no-repeat top center;
     background-size: cover;
     &__wrapper {
-      max-width: 80%;
+      max-width: 896px;
       margin: 0 auto;
+      width: 80%;
       background: #000;
       padding: 64px 32px;
-      border-radius: 10px;
+      border-radius: 15px;
     }
     &__list {
       list-style: none;
@@ -277,7 +277,7 @@ body {
       }
       &:hover {
         &::before {
-          content: url('images/dot.png');
+          content: url('../images/dot.png');
           position: absolute;
           top: 50%;
           left: -72px;
@@ -288,7 +288,7 @@ body {
   }
 
   .es-slider {
-    margin-bottom: 56px;
+    margin-bottom: 25px;
     &__title {
       @include text;
       font-size: 32px;
@@ -301,12 +301,18 @@ body {
       text-align: center;
     }
     &__wrapper {
-      background: url('images/slider.png') no-repeat top left;
-      padding: 56px 16px 0 16px;
+      background: url('../images/bg-gold.png') no-repeat top left;
+      background-size: cover;
+      padding: 56px 16px 56px 16px;
+    }
+    &__invisible {
+      margin: 0;
+      padding: 0;
+      color: #000;
     }
     &__content {
       max-width: 886px;
-      padding: 16px 24px;
+      padding: 25px 24px;
       margin: 0 auto;
       background: #000;
       border-radius: 16px;
@@ -343,7 +349,31 @@ body {
       text-align: center;
     }
     &__content {
+      min-height: 280px;
       position: relative;
+    }
+    &__link {
+      @include text;
+      margin: 25px 0;
+      padding: 13px 25px;
+      background-color: #887db0;
+      width: fit-content;
+      font-weight: 600;
+      font-size: 18px;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: linear-gradient(to right, white 50%, #887db0 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all .5s ease-out;
+      &:hover {
+        background-position: left bottom;
+        color: #000;
+      }
+    }
+    &__text {
+      @include text;
+      padding-bottom: 40px;
     }
     .swiper-button-prev:after,
     .swiper-container-rtl .swiper-button-next:after {
@@ -393,107 +423,14 @@ body {
     }
   }
 
-  .es-virtual {
-    padding: 0 16px;
-    margin-bottom: 64px;
-    &__img {
-      @include img;
-    }
-    &__title {
+  .es-footer {
+    padding: 20px 10px;
+    &__text {
       @include text;
-      text-transform: uppercase;
-      font-size: 32px;
-      font-weight: 600;
-      margin-bottom: 32px;
-    }
-    &__subtitle {
-      @include text;
-      line-height: 1.5;
-    }
-    &__list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      margin-bottom: 48px;
-      line-height: 1.5;
-    }
-    &__link {
-      @include text;
-      text-decoration: none;
-      color: #000;
-      font-weight: 700;
-      padding: 16px 32px;
-      display: inline-block;
-      background: linear-gradient(to right, #dac278, #885518);
-    }
-    &__image {
-      margin-bottom: 32px;
-      position: relative;
-      z-index: 2;
-      width: 290px;
-      margin: 0 auto;
-    }
-    &__phone {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1;
-    }
-    &__packshot {
-    position: absolute;
-    bottom: -40px;
-    right: -150px;
-    z-index: 1;
+      text-align: center;
     }
   }
 
-  .es-cross {
-    padding-bottom: 64px;
-    &__title {
-      @include text;
-      font-size: 32px;
-      font-weight: 300;
-      margin-bottom: 32px;
-      padding: 0 16px;
-      text-transform: uppercase;
-      line-height: 1.1;
-      text-align: center;
-    }
-    &__img {
-      @include img;
-      transition: all 0.3s;
-    }
-    &__container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 24px;
-      margin-bottom: 64px;
-    }
-    &__single {
-      width: 212px;
-      &:hover .es-cross__img {
-        transform: scale(1.05);
-      }
-    }
-    &__wrapper {
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-    }
-    &__more {
-      @include text;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: #000;
-      font-weight: 700;
-      padding: 16px 32px;
-      display: inline-block;
-      background: linear-gradient(to right, #dac278, #885518);
-    }
-  }
 
   @media screen and (min-width: 768px) {
     .es-kv {
@@ -536,7 +473,7 @@ body {
       }
     }
     .es-slider {
-      margin-bottom: 156px;
+      margin-bottom: 25px;
       &__title {
         font-size: 40px;
       }
