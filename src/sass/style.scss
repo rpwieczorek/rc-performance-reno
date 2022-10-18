@@ -349,31 +349,31 @@ body {
       text-align: center;
     }
     &__content {
-      min-height: 280px;
+      // min-height: 280px;
       position: relative;
     }
-    &__link {
-      @include text;
-      margin: 25px 0;
-      padding: 13px 25px;
-      background-color: #887db0;
-      width: fit-content;
-      font-weight: 600;
-      font-size: 18px;
-      text-decoration: none;
-      text-transform: uppercase;
-      background: linear-gradient(to right, white 50%, #887db0 50%);
-      background-size: 200% 100%;
-      background-position: right bottom;
-      transition: all .5s ease-out;
-      &:hover {
-        background-position: left bottom;
-        color: #000;
-      }
-    }
+    // &__link {
+    //   @include text;
+    //   margin: 25px 0;
+    //   padding: 13px 25px;
+    //   background-color: #887db0;
+    //   width: fit-content;
+    //   font-weight: 600;
+    //   font-size: 18px;
+    //   text-decoration: none;
+    //   text-transform: uppercase;
+    //   background: linear-gradient(to right, white 50%, #887db0 50%);
+    //   background-size: 200% 100%;
+    //   background-position: right bottom;
+    //   transition: all .5s ease-out;
+    //   &:hover {
+    //     background-position: left bottom;
+    //     color: #000;
+    //   }
+    // }
     &__text {
       @include text;
-      padding-bottom: 40px;
+      padding-bottom: 5px;
     }
     .swiper-button-prev:after,
     .swiper-container-rtl .swiper-button-next:after {
